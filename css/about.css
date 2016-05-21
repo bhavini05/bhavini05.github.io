@@ -1,0 +1,54 @@
+.container{
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+.banner{width:800px;}
+picture{
+	display: block;
+}
+
+
+@media screen and (min-width: 360px) {
+
+	.container{width: 90%; }
+	.banner{width:90%;}
+
+@media (min-width: 640px) {
+	.container{ width: 90%;}
+		.banner{width:90%;}
+}
+
+@media (min-width: 750px) {
+	.container{ width: 90%;}
+		.banner{width:70%;}
+}
+
+
+@media (min-width: 970px) {
+	.container{ width: 90%;}
+		.banner{width:50%;}
+}
+
+@media (min-width: 1040px) {
+
+	.container{width: 80%;}
+		.banner{width:400px;}
+   
+}
+
+@media (min-width: 1450px) {
+	.container{width: 850%;}	.banner{width:450px;}
+   
+}
+
+
+.introduction{
+
+	font-size: 1.5rem;
+	font-family: 'Raleway';
+	
+}
